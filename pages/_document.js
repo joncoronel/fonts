@@ -6,15 +6,24 @@ export default function Document() {
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
+          rel="preload"
+          href="https://fonts.gstatic.com/s/inconsolata/v21/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15IDhunA.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin=""
         />
-
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="preload"
+          href="https://fonts.gstatic.com/s/inconsolata/v21/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyx615IDhunJ_o.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin=""
+        />
+        // CSS file with @font-face rules and font-display: optional
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=optional"
           rel="stylesheet"
-        ></link>
+        />
       </Head>
       <body>
         <Main />
